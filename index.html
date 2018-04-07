@@ -4,6 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
+    
     <title>Souvik CV</title>
     
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
@@ -11,9 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/aos.css">
-    
+    <link rel="stylesheet" href="css/style.css">    
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
 
@@ -351,14 +350,11 @@
 
 
 
-
+    <script src="js/jquery-3.2.1.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script>
-    AOS.init();
-    </script>
+    
+    
     <script>
         $(document).ready(function(){ $('nav li a').click(function() { if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) { var $target = $(this.hash); $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']'); if ($target.length) { var targetOffset = $target.offset().top; $('html,body') .animate({scrollTop: targetOffset}, 1000); return false; } } }); });
         
